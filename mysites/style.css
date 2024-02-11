@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;900&display=swap');
+
+body {
+    /* כיוון האתר */
+    direction: rtl;
+    /* רקע */
+    background-color: #009688;
+    /* גופן */
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    /* יישור טקסט */
+    text-align: center;
+    /* צבע של הטקסט */
+    color: white;
+}
+
+/* עיצוב המעטפת (כל מי שקוראים לו בשם הקלאס הזה) */
+.frame {
+    /* רקע */
+    background-color: white;
+    /* מינימום גובה */
+    min-height: 500px;
+    /* רוחב */
+    width: 900px;
+    /* מקסימום רוחב */
+    max-width: 90%;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז האלמנט) */
+    margin: auto;
+    /* ריווח פנימי */
+    padding: 12px;
+    /* מסגרת */
+    border-radius: 6px;
+    /* הצללה */
+    box-shadow: 0 0 3px 0 #00000094;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+}
+
+a {
+    font-size: 30px;
+    background-color: #3f51b5;
+    color: white;
+    padding: 18px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    background-size: cover;
+}
+
+/* שינוי העיצוב במעבר עכבר */
+a:hover {
+    scale: 1.1;
+    box-shadow: 0 0 3px 0 #00000094;
+}
