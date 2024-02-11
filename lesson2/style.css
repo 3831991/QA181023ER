@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;900&display=swap');
+
+body {
+    /* כיוון האתר */
+    direction: rtl;
+    /* רקע */
+    background-color: #3a52b7;
+    /* גופן */
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    /* יישור טקסט */
+    text-align: center;
+    /* צבע של הטקסט */
+    color: white;
+}
+
+/* עיצוב המעטפת (כל מי שקוראים לו בשם הקלאס הזה) */
+.frame {
+    /* רקע */
+    background-color: white;
+    /* מינימום גובה */
+    min-height: 500px;
+    /* רוחב */
+    width: 900px;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז האלמנט) */
+    margin: auto;
+    /* ריווח פנימי */
+    padding: 12px;
+    /* מסגרת */
+    border-radius: 6px;
+    /* הצללה */
+    box-shadow: 0 0 3px 0 #00000094;
+}
+
+form {
+    /* רוחב */
+    width: 400px;
+    /* ריווח אוטומטי (לצורך מרכוז) */
+    margin: auto;
+    /* ריווח פנימי */
+    padding: 16px 0;
+}
+
+input, textarea {
+    /* מסגרת */
+    border: 1px solid;
+    /* ריווח פנימי */
+    padding: 8px 12px;
+    /* עיגול קצוות */
+    border-radius: 5px;
+    /* רוחב */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    /* שינו מצב תצוגה לבלוק */
+    display: block;
+    /* ריווח תחתון */
+    margin-bottom: 4px;
+}
+
+/* עיצוב מסגרת השדות (כל מי שקוראים לו בשם הקלאס הזה) */
+.field {
+    /* ריווח תחתון */
+    margin-bottom: 8px;
+}
