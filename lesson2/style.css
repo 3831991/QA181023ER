@@ -67,3 +67,20 @@ label {
     /* ריווח תחתון */
     margin-bottom: 8px;
 }
+
+button {
+    /* רקע */
+    background-color: #3a52b7;
+    /* צבע טקסט */
+    color: white;
+    /* ריווח פנימי */
+    padding: 8px;
+    /* רוחב */
+    width: 100%;
+    /* עיגול קצוות */
+    border-radius: 10px;
+    /* מסגרת */
+    border: 0;
+    /* גודל הגופן */
+    font-size: 16px;
+}
