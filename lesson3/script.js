@@ -11,3 +11,17 @@ function welcomeName() {
 
     alert("ברוך הבא " + name + "!");
 }
+
+function multi() {
+    var n = document.getElementById("num").value;
+
+    alert(n * 50);
+}
+
+var count = 0;
+
+function counter() {
+    count++;
+
+    document.getElementById("btn").innerHTML = count;
+}
