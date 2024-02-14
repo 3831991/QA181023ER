@@ -33,6 +33,7 @@ h1 {
     /* הצללה */
     box-shadow: 0 0 3px 0 #00000094;
     padding-bottom: 200px;
+    max-width: 90%;
 }
 
 .task {
