@@ -25,3 +25,7 @@ function counter() {
 
     document.getElementById("btn").innerHTML = count;
 }
+
+function multi2() {
+    
+}
