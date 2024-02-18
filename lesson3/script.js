@@ -34,5 +34,8 @@ function multi2() {
 }
 
 function plus() {
-    
+    var n1 = +document.getElementById("num3").value;
+    var n2 = +document.getElementById("num4").value;
+
+    alert(n1 + n2);
 }
